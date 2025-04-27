@@ -57,8 +57,8 @@ const scene = new THREE.Scene()
 /**
  * Object
  */
-const geometry = new THREE.BoxGeometry(1, 1, 1)
-const material = new THREE.MeshBasicMaterial({ map: colorTexture })
+const geometry = new THREE.TorusGeometry(1)
+const material = new THREE.MeshBasicMaterial({ map: colorTexture, wireframe: true })
 const mesh = new THREE.Mesh(geometry, material)
 scene.add(mesh)
 
