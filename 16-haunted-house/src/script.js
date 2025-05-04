@@ -41,7 +41,7 @@ floorColorTexture.colorSpace = THREE.SRGBColorSpace
 floorColorTexture.repeat.set(8, 8)
 floorColorTexture.wrapS = THREE.RepeatWrapping
 floorColorTexture.wrapT = THREE.RepeatWrapping
-
+ 
 
 floorARMTexture.repeat.set(8, 8)
 floorARMTexture.wrapS = THREE.RepeatWrapping
