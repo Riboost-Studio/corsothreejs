@@ -2,6 +2,8 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import GUI from 'lil-gui'
 
+
+
 /**
  * Base
  */
@@ -19,6 +21,8 @@ const scene = new THREE.Scene()
  */
 const textureLoader = new THREE.TextureLoader()
 const particlesTexture = textureLoader.load('./textures/particles/2.png')
+
+
 
 /**
  * Particles
